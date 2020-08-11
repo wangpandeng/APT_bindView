@@ -56,6 +56,7 @@ public class BindViewProcessor extends AbstractProcessor {
 
     @Override
     public boolean process(Set<? extends TypeElement> set, RoundEnvironment roundEnvironment) {
+        System.out.println("---------------------生成代码结束----------------------");
         mProxyMap.clear();
         //得到所有的注解
         Set<? extends Element> elements = roundEnvironment.getElementsAnnotatedWith(BindView.class);
