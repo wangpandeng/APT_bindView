@@ -37,6 +37,10 @@ public class BindViewProcessor extends AbstractProcessor {
         mElementUtils = processingEnv.getElementUtils();
     }
 
+//@SupportedSourceVersion(SourceVersion.RELEASE_7)
+//@SupportedAnnotationTypes("com.example.apt_annotation.BindView")
+    //可以用这二个注解替换下面的2个方法
+
 
 //    @Override
 //    public Set<String> getSupportedAnnotationTypes() {
